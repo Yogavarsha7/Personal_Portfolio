@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yogavarsha Kondra</title>
+    <link rel="icon" href="./assets/favv.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi, Myself</h3>
+            <h1>Yogavarsha Kondra</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>Aspiring Developer with expertise in Machine Learning and Data Structures, and a passion for Web Development. Skilled in Java, C++, and Python. Committed to creating innovative solutions and continuously learning.</p>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/yogavarsha-kondra-36b840247/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/Yogavarsha7"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/yogavarsha.751/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="mailto:yogavarshak@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+            <a href="/assets/Profile.pdf" download="Resume.pdf" class="btn">Download CV</a>
+        </div>
+        <div class="home-img">
+            <img src="/assets/img1.png">
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <h2 class="heading">Services</h2>
+        <div class="services-container">
+            <div class="service">
+                <i class="fa-solid fa-laptop-code"></i>
+                <h3>Web Development</h3>
+                <p>Creating responsive and dynamic websites using the latest web technologies. Specializing in frontend development to deliver a seamless user experience.</p>
+            </div>
+            <div class="service">
+                <i class="fa-solid fa-brain"></i>
+                <h3>Machine Learning</h3>
+                <p>Developing machine learning models to solve complex problems and improve decision-making.</p>
+            </div>
+            <div class="service">
+                <i class="fa-solid fa-code"></i>
+                <h3>Programming</h3>
+                <p>Providing coding solutions in various programming languages including Java, C++, and Python.</p>
+            </div>
+            <div class="service">
+                <i class="fa-solid fa-house-laptop"></i>
+                <h3>IOT Development</h3>
+                <p>Developing IOT applications based on client requirements.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="/assets/rasa.png">
+                <div class="portfolio-layer">
+                    <h4>Smart Chatbot</h4>
+                    <a href="https://github.com/Yogavarsha7"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="/assets/tracking.jpg">
+                <div class="portfolio-layer">
+                    <h4>Water and Electricity Tracking Application</h4>
+                    <a href="https://github.com/Yogavarsha7"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="/assets/dustbin.png">
+                <div class="portfolio-layer">
+                    <h4>Dry/Wet Waste Segregation</h4>
+                    <a href="https://github.com/Yogavarsha7"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact Me</h2>
+        <form action="send_mail.php" method="POST">
+            <div class="input-box">
+                <input type="text" name="name" placeholder="Full Name" required>
+                <input type="email" name="email" placeholder="Email Address" required>
+            </div>
+            <div class="input-box">
+                <input type="tel" name="phone" placeholder="Mobile Number" required>
+                <input type="text" name="subject" placeholder="Email Subject" required>
+            </div>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by <span class="foot">Yogavarsha Kondra</span> | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+    </footer>
+    
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
